@@ -1,0 +1,30 @@
+InsideNaija v3.0.0 — Upload instructions
+========================================
+
+1. Go to: https://github.com/InsideNaijaGame/InsideNaija
+
+2. Upload / replace these files in the repo root:
+   - server.js          (main game + backend)
+   - package.json
+   - README.md
+   - render.yaml
+   - manifest.json
+
+   Easiest way on GitHub web:
+   - Open each file → pencil icon → paste new content → Commit
+   OR
+   - Use "Add file" → Upload files → drag the files from this folder
+
+3. After commit, Render will auto-redeploy (npm install + npm start).
+
+4. Check: https://insidenaija.onrender.com/api/health
+   Should show: "version":"3.0.0"
+
+5. Play: https://insidenaija.onrender.com/
+
+What v3 adds:
+- Three.js humanoid character (body, head, arms, legs) with walk/run/idle
+- Third-person Lagos world (roads, buildings, trees, cars, lights)
+- Mobile joystick + RUN + Interact
+- Real multiplayer humanoids via Socket.IO
+- Chat, phone UI, jobs, bank, map (36 states + FCT), economy
