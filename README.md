@@ -1,5 +1,3 @@
-# InsideNaija v2.0 Playable Launch Build
+InsideNaija v2.2.0 Launch Build
 
-Mobile-first browser game for Render. Includes a procedural 3D Nigerian city scene, animated player avatar, robust mobile joystick + directional controls, keyboard movement, NPCs, jobs, home, phone, Nigeria state map, travel simulation, vehicle mode, missions, HUD and Socket.IO multiplayer presence/chat.
-
-Deployment: Node 20, `npm start`.
+Deploy as a Render Web Service using `npm start`. This release includes a native WebGL 3D engine with a compatibility canvas fallback, mobile controls, multiplayer presence/chat, jobs, travel across 36 states + FCT, PWA manifest, and local progress saving.
